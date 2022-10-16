@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.clock {
+  margin: 0 auto;
+  width: 75%;
+  height: 75%;
+}
+
+circle {
+  fill: #3d3846;
+}
+
+.hours,
+.minutes,
+.seconds {
+  transform-origin: center;
+  stroke-linecap: round;
+  transition:  transform 1s ease-in-out;
+}
+
+.hours {
+  stroke: cyan;
+  stroke-width: 3px;
+}
+
+  .minutes {
+    stroke: lime;
+    stroke-width: 2px;
+    
+  }
+
+.seconds {
+  stroke: fuchsia;
+  
+}
